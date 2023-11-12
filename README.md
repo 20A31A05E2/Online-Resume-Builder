@@ -13,6 +13,7 @@ Provides options for selecting the gender from a drop-down menu.
 Validates password input and confirms password match before registering the data.
 Displays appropriate error messages for incomplete or incorrect information.
 Generates a resume in PDF format by saving the entered information to a file.
+
 Usage:
 
 Clone the repository to your local machine.
@@ -21,6 +22,7 @@ Build and run the application.
 Fill in the required information in the provided fields.
 Click the "REGISTER" button to validate and save the data. A success message or an error message will be displayed accordingly.
 Click the "RESET" button to clear all the fields.
+
 Dependencies:
 
 Java Development Kit (JDK)
