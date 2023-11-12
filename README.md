@@ -8,22 +8,22 @@ Description: This GitHub repository contains the source code for an online resum
 
 Features:
 
-Allows users to enter their name, gender, father's name, password, city, email, skills, college, degree, LinkedIn link, GitHub link, HackerRank link, contact information, and experience.
-Provides options for selecting the gender from a drop-down menu.
-Validates password input and confirms password match before registering the data.
-Displays appropriate error messages for incomplete or incorrect information.
-Generates a resume in PDF format by saving the entered information to a file.
+-- Allows users to enter their name, gender, father's name, password, city, email, skills, college, degree, LinkedIn link, GitHub link, HackerRank link, contact information, and experience.
+-- Provides options for selecting the gender from a drop-down menu.
+-- Validates password input and confirms password match before registering the data.
+-- Displays appropriate error messages for incomplete or incorrect information.
+-- Generates a resume in PDF format by saving the entered information to a file.
 
 Usage:
 
-Clone the repository to your local machine.
-Open the Java project in your preferred IDE.
-Build and run the application.
-Fill in the required information in the provided fields.
-Click the "REGISTER" button to validate and save the data. A success message or an error message will be displayed accordingly.
-Click the "RESET" button to clear all the fields.
+-> Clone the repository to your local machine.
+-> Open the Java project in your preferred IDE.
+-> Build and run the application.
+-> Fill in the required information in the provided fields.
+-> Click the "REGISTER" button to validate and save the data. A success message or an error message will be displayed accordingly.
+-> Click the "RESET" button to clear all the fields.
 
 Dependencies:
 
-Java Development Kit (JDK)
-Swing library
+-- Java Development Kit (JDK)
+-- Swing library
