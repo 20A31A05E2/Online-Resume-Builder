@@ -15,4 +15,3 @@ The generatePassword method takes in the desired password length and boolean fla
 The generated password is returned as a string.
 
 Feel free to modify the code or adjust the character sets to fit your specific requirements for password generation.
-
