@@ -1,27 +1,18 @@
-# CodeClauseTask-1
-Online Resume Builder is a user-friendly web application designed to assist users in creating impressive resumes effortlessly. It offers a seamless and intuitive interface that allows users to input their information, select from a range of customizable templates, and generate visually appealing resumes tailored to their needs.
-This code is an implementation of an online resume builder using Java and Swing. It provides a graphical user interface (GUI) where users can enter their personal and professional details to create a resume. Here's a description for the GitHub repository:
+Password Generator
 
-**Title:** Online Resume Builder
+This code provides a simple password generator utility in Java. It generates a random password based on specified criteria such as length and character types.
 
-**Description:**
-This GitHub repository contains the source code for an online resume builder application implemented in Java. The application uses Java's Swing library to create a graphical user interface (GUI) where users can enter their personal and professional information to generate a resume.
+The PasswordGenerator class includes the following character sets:
 
-**Features:**
-- Allows users to enter their name, gender, father's name, password, city, email, skills, college, degree, LinkedIn link, GitHub link, HackerRank link, contact information, and experience.
-- Provides options for selecting the gender from a drop-down menu.
-- Validates password input and confirms password match before registering the data.
-- Displays appropriate error messages for incomplete or incorrect information.
-- Generates a resume in PDF format by saving the entered information to a file.
+UPPER_CASE: Uppercase letters (ABCDEFGHIJKLMNOPQRSTUVWXYZ)
+LOWER_CASE: Lowercase letters (abcdefghijklmnopqrstuvwxyz)
+DIGITS: Numeric digits (0123456789)
+SPECIAL_CHARACTERS: Special characters (!@#$%^&*()_-+=~`[]{}|\:;"'<>,.?/)
+The main method demonstrates the usage of the generatePassword method to generate a password with specific configurations. It sets the desired password length and whether to include uppercase letters, lowercase letters, digits, and special characters. The generated password is then printed to the console.
 
-**Usage:**
-1. Clone the repository to your local machine.
-2. Open the Java project in your preferred IDE.
-3. Build and run the application.
-4. Fill in the required information in the provided fields.
-5. Click the "REGISTER" button to validate and save the data. A success message or an error message will be displayed accordingly.
-6. Click the "RESET" button to clear all the fields.
+The generatePassword method takes in the desired password length and boolean flags to determine which character sets to include. It constructs a StringBuilder to build the password and uses a SecureRandom instance to generate random indexes. Based on the selected character types, the method constructs a validCharacters string by concatenating the corresponding character sets. It then iterates length times and randomly selects characters from validCharacters to build the password.
 
-**Dependencies:**
-- Java Development Kit (JDK)
-- Swing library
+The generated password is returned as a string.
+
+Feel free to modify the code or adjust the character sets to fit your specific requirements for password generation.
+
