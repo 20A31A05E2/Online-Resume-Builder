@@ -1,5 +1,5 @@
 
-#Password Generator
+# Password Generator
 
 This code provides a simple password generator utility in Java. It generates a random password based on specified criteria such as length and character types.
 
